@@ -1,0 +1,7 @@
+test_id,test_name,status,detail
+T01,No duplicate primary keys across all 5 clean tables,PASS,duplicates=0
+T02,No missing required fields in cleaned tables,PASS,missing_required_cells=0
+T03,"Valid value ranges (runs>=0, balls_bowled 0..24, not_out in {0,1})",PASS,violations=0
+T04,Python totals equal SQLite database totals,PASS,"py=(35978,1143), sql=(35978,1143)"
+T05,Referential integrity across fact and dimension tables,PASS,orphan_keys=0
+T06,5 sample benchmark players match expected stats,PASS,all 5 matched

@@ -1,0 +1,10 @@
+issue,rule_applied,rows_affected
+Duplicate player records (dim_players),Drop exact duplicate rows keeping first occurrence on player_id,2
+Whitespace & casing inconsistencies (dim_players),"Trim whitespace and standardize Title/Proper case for player_name, player_role, batting_hand",4
+Mixed match_date formats (dim_matches),"Parse YYYY-MM-DD, DD/MM/YYYY, and DD-MMM-YYYY uniformly to ISO YYYY-MM-DD",18
+Whitespace & casing inconsistencies (dim_matches),Trim venue/city whitespace and lowercase toss_decision to bat/field,3
+Duplicate player-match records (fact_player_match_stats),Drop exact duplicate rows keeping first occurrence on stat_id,10
+Mixed or blank not_out flags (fact_player_match_stats),"Normalize Yes/Y/1->1, No/N/0->0, and blank when innings_batted=0->0",166
+Negative out-of-range placeholders (fact_player_match_stats),Clamp negative placeholder runs_scored and catches values on DNB rows to 0,6
+Missing balls_bowled where overs_bowled > 0 (fact_player_match_stats),Derive exact balls_bowled from cricket overs notation via floor(overs)*6 + round((overs%1)*10),25
+Missing balls_faced on active batting innings (fact_player_match_stats),Impute missing balls_faced from runs_scored using player_role median strike rate and set balls_faced_imputed=1,15

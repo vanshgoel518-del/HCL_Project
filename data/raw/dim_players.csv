@@ -1,0 +1,35 @@
+player_id,player_name,team_id,player_role,batting_hand,bowling_style,nationality,is_active
+P001,Virat Kohli,T01,Batsman,Right-hand,None,India,1
+P002,Rohit Sharma,T02, batsman ,Right-hand,None,India,1
+P003,Jasprit Bumrah,T02,Bowler,Right-hand,Right-arm fast,India,1
+P004,Rashid Khan,T07,Bowler,Right-hand,Right-arm legbreak,Overseas,1
+P005,Suryakumar Yadav,T02,BATSMAN,Right-hand,None,India,1
+P006,Faf du Plessis,T01,Batsman,Right-hand,None,Overseas,1
+P007,Glenn Maxwell,T01,All-Rounder,Right-hand,Right-arm offbreak,Overseas,1
+P008,Mohammed Siraj,T01,Bowler, right-hand ,Right-arm fast,India,1
+P009,Hardik Pandya,T02,All-Rounder,Right-hand,Right-arm fast,India,1
+P010,MS Dhoni,T03,Wicket-Keeper,Right-hand,None,India,1
+P011,  Ravindra Jadeja ,T03,Batsman,Right-hand,None,India,1
+P012,Ravindra Jadeja,T03,All-Rounder,Left-hand,Left-arm orthodox,India,1
+P013,Deepak Chahar,T03,Bowler,Right-hand,Right-arm fast,India,1
+P014,Shreyas Iyer,T04,Batsman,Right-hand,None,India,1
+P015,Andre Russell,T04,All-Rounder,Right-hand,Right-arm fast,Overseas,1
+P016,Sunil Narine,T04,All-Rounder,Left-hand,Right-arm offbreak,Overseas,1
+P017,Varun Chakravarthy,T04,Bowler,Right-hand,Right-arm legbreak,India,1
+P018,Sanju Samson,T05,Wicket-Keeper,Right-hand,None,India,1
+P019,Jos Buttler,T05,Batsman,Right-hand,None,Overseas,1
+P020,Yuzvendra Chahal,T05,Bowler,Right-hand,Right-arm legbreak,India,1
+P021,Trent Boult,T05,Bowler,Right-hand,Left-arm fast,Overseas,1
+P022,Abhishek Sharma,T06,All-Rounder,Left-hand,Left-arm orthodox,India,1
+P023,Heinrich Klaasen,T06,Wicket-Keeper,Right-hand,None,Overseas,1
+P024,Pat Cummins,T06,Bowler,Right-hand,Right-arm fast,Overseas,1
+P025,Bhuvneshwar Kumar,T06,Bowler,Right-hand,Right-arm fast,India,1
+P026,Shubman Gill,T07,Batsman,Right-hand,None,India,1
+P027,David Miller,T07,Batsman,Left-hand,None,Overseas,1
+P028,Mohammed Shami,T07,Bowler,Right-hand,Right-arm fast,India,1
+P029,Rishabh Pant,T08,Wicket-Keeper,Left-hand,None,India,1
+P030,David Warner,T08,Batsman,Left-hand,None,Overseas,1
+P031,Axar Patel,T08,All-Rounder,Left-hand,Left-arm orthodox,India,1
+P032,Kuldeep Yadav,T08,Bowler,Left-hand,Left-arm orthodox,India,1
+P004,Rashid Khan,T07,Bowler,Right-hand,Right-arm legbreak,Overseas,1
+P013,Deepak Chahar,T03,Bowler,Right-hand,Right-arm fast,India,1

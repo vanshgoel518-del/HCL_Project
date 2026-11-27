@@ -1,0 +1,49 @@
+table,column,type,description,example/rule
+dim_teams,team_id,VARCHAR(10),Primary key uniquely identifying each IPL franchise,"T01; NOT NULL, PK"
+dim_teams,team_code,VARCHAR(10),Official 2-3 letter franchise abbreviation,"RCB, MI, CSK; UNIQUE"
+dim_teams,team_name,VARCHAR(80),Full official franchise name,Royal Challengers Bengaluru
+dim_teams,home_city,VARCHAR(50),Franchise home city,Bengaluru
+dim_teams,home_venue,VARCHAR(100),Primary home cricket stadium,M. Chinnaswamy Stadium
+dim_seasons,season_id,VARCHAR(10),Primary key identifying each IPL season,"S2021; NOT NULL, PK"
+dim_seasons,season_year,INTEGER,Four-digit calendar year of the tournament,2021 (BETWEEN 2008 AND 2030)
+dim_seasons,host_country,VARCHAR(40),Country or countries hosting the season,"India/UAE, India"
+dim_seasons,total_teams,INTEGER,Number of participating teams in the season,8 (> 0)
+dim_seasons,champion_team_id,VARCHAR(10),Foreign key referencing winning team in dim_teams,T03; FK -> dim_teams(team_id)
+dim_players,player_id,VARCHAR(10),Primary key uniquely identifying each player,"P001; NOT NULL, PK"
+dim_players,player_name,VARCHAR(80),Player full name (trimmed in cleaning),Virat Kohli; trim whitespace
+dim_players,team_id,VARCHAR(10),Foreign key to player's franchise in dim_teams,T01; FK -> dim_teams(team_id)
+dim_players,player_role,VARCHAR(30),Primary squad role,"Batsman, Bowler, All-Rounder, Wicket-Keeper"
+dim_players,batting_hand,VARCHAR(20),Dominant batting stance,"Right-hand, Left-hand"
+dim_players,bowling_style,VARCHAR(40),Primary bowling style or None,"Right-arm fast, None"
+dim_players,nationality,VARCHAR(20),Player eligibility category,"India, Overseas"
+dim_players,is_active,INTEGER,Active squad indicator (1=Active 0=Inactive),1; CHECK (is_active IN (0 1))
+dim_matches,match_id,VARCHAR(15),Primary key uniquely identifying a match,"M2021_001; NOT NULL, PK"
+dim_matches,season_id,VARCHAR(10),Foreign key referencing dim_seasons,S2021; FK -> dim_seasons(season_id)
+dim_matches,match_date,DATE,Standardized ISO match date,2021-04-01; normalize mixed formats to YYYY-MM-DD
+dim_matches,venue,VARCHAR(100),Stadium where the match was played,M. Chinnaswamy Stadium; trim whitespace
+dim_matches,city,VARCHAR(50),City hosting the match,Bengaluru
+dim_matches,team1_id,VARCHAR(10),Foreign key for home/first-listed team,T01; FK -> dim_teams(team_id)
+dim_matches,team2_id,VARCHAR(10),Foreign key for away/second-listed team,T02; FK -> dim_teams(team_id)
+dim_matches,toss_winner_id,VARCHAR(10),Foreign key for team winning the coin toss,T02; FK -> dim_teams(team_id)
+dim_matches,toss_decision,VARCHAR(10),Toss winner's choice (bat or field),field; lowercase + CHECK (toss_decision IN ('bat' 'field'))
+dim_matches,winner_team_id,VARCHAR(10),Foreign key for match-winning team,T02; FK -> dim_teams(team_id)
+dim_matches,win_margin_runs,INTEGER,Winning margin in runs when defending team wins,19; NULL when won by wickets
+dim_matches,win_margin_wickets,INTEGER,Winning margin in wickets when chasing team wins,3; NULL when won by runs
+fact_player_match_stats,stat_id,VARCHAR(15),Primary key uniquely identifying a player-match record,"ST00001; NOT NULL, PK"
+fact_player_match_stats,match_id,VARCHAR(15),Foreign key referencing dim_matches,M2021_001; FK -> dim_matches(match_id)
+fact_player_match_stats,player_id,VARCHAR(10),Foreign key referencing dim_players,P001; FK -> dim_players(player_id)
+fact_player_match_stats,team_id,VARCHAR(10),Foreign key referencing player's team in dim_teams,T01; FK -> dim_teams(team_id)
+fact_player_match_stats,innings_batted,INTEGER,Binary flag (1 if player batted 0 if DNB),1; CHECK (innings_batted IN (0 1))
+fact_player_match_stats,runs_scored,INTEGER,Total runs scored by player in the match,34; CHECK (runs_scored >= 0)
+fact_player_match_stats,balls_faced,INTEGER,Legal deliveries faced while batting,25; CHECK (balls_faced >= 0)
+fact_player_match_stats,fours,INTEGER,Number of 4-run boundaries hit,6; CHECK (fours >= 0)
+fact_player_match_stats,sixes,INTEGER,Number of 6-run maximums hit,0; CHECK (sixes >= 0)
+fact_player_match_stats,not_out,INTEGER,Binary flag (1 if unbeaten 0 if dismissed/DNB),0; normalize Yes/No/blank to 0 or 1
+fact_player_match_stats,overs_bowled,DECIMAL(3.1),Cricket-notation overs bowled (e.g. 3.2 = 3 overs 2 balls),4.0; CHECK (overs_bowled >= 0)
+fact_player_match_stats,balls_bowled,INTEGER,Total legal balls bowled in the match (0-24),24; derive from overs_bowled if missing
+fact_player_match_stats,runs_conceded,INTEGER,Total runs conceded while bowling,26; CHECK (runs_conceded >= 0)
+fact_player_match_stats,wickets_taken,INTEGER,Total wickets taken by bowler in the match,2; CHECK (wickets_taken BETWEEN 0 AND 10)
+fact_player_match_stats,maidens,INTEGER,Number of zero-run overs bowled,1; CHECK (maidens >= 0)
+fact_player_match_stats,catches,INTEGER,Number of catches taken in fielding,2; CHECK (catches >= 0)
+fact_player_match_stats,stumpings,INTEGER,Number of wicket-keeper stumpings completed,0; CHECK (stumpings >= 0)
+fact_player_match_stats,player_of_match,INTEGER,Binary flag (1 if awarded Player of the Match),0; CHECK (player_of_match IN (0 1))

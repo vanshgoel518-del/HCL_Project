@@ -1,0 +1,161 @@
+match_id,season_id,match_date,venue,city,team1_id,team2_id,toss_winner_id,toss_decision,winner_team_id,win_margin_runs,win_margin_wickets
+M2021_001,S2021,01/04/2021,M. Chinnaswamy Stadium,Bengaluru,T01,T02,T02,field,T02,,3
+M2021_002,S2021,2021-04-04,M. Chinnaswamy Stadium,Bengaluru,T01,T03,T03,field,T01,19,
+M2021_003,S2021,2021-04-07,M. Chinnaswamy Stadium,Bengaluru,T01,T04,T01,field,T01,,6
+M2021_004,S2021,2021-04-10,M. Chinnaswamy Stadium,Bengaluru,T01,T05,T05,field,T01,,9
+M2021_005,S2021,2021-04-13,M. Chinnaswamy Stadium,Bengaluru,T01,T06,T06,field,T01,,5
+M2021_006,S2021,2021-04-16,  Wankhede Stadium ,Bengaluru,T01,T07,T01,field,T07,,2
+M2021_007,S2021,2021-04-19,M. Chinnaswamy Stadium,Bengaluru,T01,T08,T08,bat,T01,56,
+M2021_008,S2021,2021-04-22,Wankhede Stadium,Mumbai,T02,T03,T03,field,T02,,9
+M2021_009,S2021,2021-04-25,Wankhede Stadium,Mumbai,T02,T04,T04,bat,T02,,7
+M2021_010,S2021,01-Apr-2021,Wankhede Stadium,Mumbai,T02,T05,T02,bat,T05,,8
+M2021_011,S2021,2021-05-04,Wankhede Stadium,Mumbai,T02,T06,T02,bat,T02,22,
+M2021_012,S2021,2021-05-07,Wankhede Stadium,Mumbai,T02,T07,T02,field,T02,60,
+M2021_013,S2021,2021-05-10,Wankhede Stadium,Mumbai,T02,T08,T08,bat,T08,,6
+M2021_014,S2021,2021-05-13,MA Chidambaram Stadium,Chennai,T03,T04,T04,bat,T03,,6
+M2021_015,S2021,2021-05-16,MA Chidambaram Stadium,Chennai,T03,T05,T05,FIELD ,T03,,5
+M2021_016,S2021,2021-05-19,MA Chidambaram Stadium,Chennai,T03,T06,T06,field,T03,,8
+M2021_017,S2021,2021-05-22,MA Chidambaram Stadium,Chennai,T03,T07,T07,field,T07,4,
+M2021_018,S2021,2021-05-25,MA Chidambaram Stadium,Chennai,T03,T08,T08,field,T03,,8
+M2021_019,S2021,01/05/2021,Eden Gardens,Kolkata,T04,T05,T04,field,T04,,6
+M2021_020,S2021,2021-05-04,Eden Gardens,Kolkata,T04,T06,T04,bat,T04,59,
+M2021_021,S2021,2021-09-07,Eden Gardens,Kolkata,T04,T07,T04,field,T04,47,
+M2021_022,S2021,2021-09-10,Eden Gardens,Kolkata,T04,T08,T08,field,T08,49,
+M2021_023,S2021,2021-09-13,Sawai Mansingh Stadium,Jaipur,T05,T06,T05,bat,T05,,9
+M2021_024,S2021,2021-09-16,Sawai Mansingh Stadium,Jaipur,T05,T07,T07,field,T07,54,
+M2021_025,S2021,2021-09-19,Sawai Mansingh Stadium,Jaipur,T05,T08,T05,field,T05,57,
+M2021_026,S2021,2021-09-22,Rajiv Gandhi Intl Stadium,Hyderabad,T06,T07,T06,bat,T07,,6
+M2021_027,S2021,2021-09-25,Rajiv Gandhi Intl Stadium,Hyderabad,T06,T08,T08,bat,T06,6,
+M2021_028,S2021,01-Sep-2021,Narendra Modi Stadium,Ahmedabad,T07,T08,T07,field,T07,62,
+M2021_029,S2021,2021-09-04,Wankhede Stadium,Mumbai,T02,T01,T01,bat,T02,32,
+M2021_030,S2021,2021-09-07,MA Chidambaram Stadium,Chennai,T03,T01,T01,Bat,T01,34,
+M2021_031,S2021,2021-10-10,Eden Gardens,Kolkata,T04,T01,T04,bat,T04,,5
+M2021_032,S2021,2021-10-13,Sawai Mansingh Stadium,Jaipur,T05,T01,T05,field,T05,,5
+M2021_033,S2021,2021-10-16,Rajiv Gandhi Intl Stadium,Hyderabad,T06,T01,T01,field,T01,15,
+M2021_034,S2021,2021-10-19,Narendra Modi Stadium,Ahmedabad,T07,T01,T07,field,T01,,9
+M2021_035,S2021,2021-10-22,Arun Jaitley Stadium,Delhi,T08,T01,T01,field,T08,,4
+M2021_036,S2021,2021-10-25,MA Chidambaram Stadium,Chennai,T03,T02,T02,bat,T02,,7
+M2021_037,S2021,01/10/2021,Eden Gardens,Kolkata,T04,T02,T02,bat,T04,,5
+M2021_038,S2021,2021-10-04,Sawai Mansingh Stadium,Jaipur,T05,T02,T05,field,T05,48,
+M2021_039,S2021,2021-10-07,Rajiv Gandhi Intl Stadium,Hyderabad,T06,T02,T06,bat,T02,,3
+M2021_040,S2021,2021-10-10,Narendra Modi Stadium,Ahmedabad,T07,T02,T02,bat,T07,,3
+M2022_001,S2022,2022-03-01,M. Chinnaswamy Stadium,Bengaluru,T01,T02,T02,field,T01,,5
+M2022_002,S2022,2022-03-04,M. Chinnaswamy Stadium,Bengaluru,T01,T03,T01,bat,T03,38,
+M2022_003,S2022,2022-03-07,M. Chinnaswamy Stadium,Bengaluru,T01,T04,T01,bat,T04,44,
+M2022_004,S2022,2022-03-10,M. Chinnaswamy Stadium,Bengaluru,T01,T05,T05,field,T05,,2
+M2022_005,S2022,2022-03-13,M. Chinnaswamy Stadium,Bengaluru,T01,T06,T01,field,T06,16,
+M2022_006,S2022,16-Mar-2022,M. Chinnaswamy Stadium,Bengaluru,T01,T07,T01,field,T07,37,
+M2022_007,S2022,2022-03-19,M. Chinnaswamy Stadium,Bengaluru,T01,T08,T01,field,T01,18,
+M2022_008,S2022,2022-03-22,Wankhede Stadium,Mumbai,T02,T03,T03,field,T03,,8
+M2022_009,S2022,2022-03-25,Wankhede Stadium,Mumbai,T02,T04,T02,field,T02,,8
+M2022_010,S2022,2022-03-01,Wankhede Stadium,Mumbai,T02,T05,T02,field,T02,,9
+M2022_011,S2022,2022-03-04,Wankhede Stadium,Mumbai,T02,T06,T02,field,T02,,2
+M2022_012,S2022,2022-03-07,Wankhede Stadium,Mumbai,T02,T07,T02,field,T02,,4
+M2022_013,S2022,2022-03-10,Wankhede Stadium,Mumbai,T02,T08,T02,field,T02,10,
+M2022_014,S2022,2022-03-13,MA Chidambaram Stadium,Chennai,T03,T04,T04,bat,T03,,5
+M2022_015,S2022,16/04/2022,MA Chidambaram Stadium,Chennai,T03,T05,T05,bat,T03,,9
+M2022_016,S2022,2022-04-19,MA Chidambaram Stadium,Chennai,T03,T06,T06,bat,T03,,9
+M2022_017,S2022,2022-04-22,MA Chidambaram Stadium,Chennai,T03,T07,T03,bat,T07,47,
+M2022_018,S2022,2022-04-25,MA Chidambaram Stadium,Chennai,T03,T08,T08,field,T03,12,
+M2022_019,S2022,2022-04-01,Eden Gardens,Kolkata,T04,T05,T04,field,T04,,4
+M2022_020,S2022,2022-04-04,Eden Gardens,Kolkata,T04,T06,T04,field,T06,,7
+M2022_021,S2022,2022-04-07,Eden Gardens,Kolkata,T04,T07,T07,bat,T07,11,
+M2022_022,S2022,2022-04-10,Eden Gardens,Kolkata,T04,T08,T04,bat,T08,12,
+M2022_023,S2022,2022-04-13,Sawai Mansingh Stadium,Jaipur,T05,T06,T05,field,T06,40,
+M2022_024,S2022,16-Apr-2022,Sawai Mansingh Stadium,Jaipur,T05,T07,T07,field,T05,57,
+M2022_025,S2022,2022-04-19,Sawai Mansingh Stadium,Jaipur,T05,T08,T08,field,T05,53,
+M2022_026,S2022,2022-04-22,Rajiv Gandhi Intl Stadium,Hyderabad,T06,T07,T07,field,T07,,9
+M2022_027,S2022,2022-04-25,Rajiv Gandhi Intl Stadium,Hyderabad,T06,T08,T08,bat,T06,22,
+M2022_028,S2022,2022-05-01,Narendra Modi Stadium,Ahmedabad,T07,T08,T07,bat,T08,56,
+M2022_029,S2022,2022-05-04,Wankhede Stadium,Mumbai,T02,T01,T01,bat,T02,,7
+M2022_030,S2022,2022-05-07,MA Chidambaram Stadium,Chennai,T03,T01,T03,bat,T03,19,
+M2022_031,S2022,2022-05-10,Eden Gardens,Kolkata,T04,T01,T04,field,T01,6,
+M2022_032,S2022,2022-05-13,Sawai Mansingh Stadium,Jaipur,T05,T01,T05,field,T05,62,
+M2022_033,S2022,16/05/2022,Rajiv Gandhi Intl Stadium,Hyderabad,T06,T01,T06,bat,T06,,4
+M2022_034,S2022,2022-05-19,Narendra Modi Stadium,Ahmedabad,T07,T01,T01,field,T01,58,
+M2022_035,S2022,2022-05-22,Arun Jaitley Stadium,Delhi,T08,T01,T01,field,T01,,2
+M2022_036,S2022,2022-05-25,MA Chidambaram Stadium,Chennai,T03,T02,T03,field,T02,32,
+M2022_037,S2022,2022-05-01,Eden Gardens,Kolkata,T04,T02,T02,field,T04,,4
+M2022_038,S2022,2022-05-04,Sawai Mansingh Stadium,Jaipur,T05,T02,T02,field,T05,27,
+M2022_039,S2022,2022-05-07,Rajiv Gandhi Intl Stadium,Hyderabad,T06,T02,T02,field,T02,48,
+M2022_040,S2022,2022-05-10,Narendra Modi Stadium,Ahmedabad,T07,T02,T02,field,T07,33,
+M2023_001,S2023,2023-03-01,M. Chinnaswamy Stadium,Bengaluru,T01,T02,T01,bat,T01,46,
+M2023_002,S2023,04-Mar-2023,M. Chinnaswamy Stadium,Bengaluru,T01,T03,T03,field,T03,49,
+M2023_003,S2023,2023-03-07,M. Chinnaswamy Stadium,Bengaluru,T01,T04,T04,bat,T01,,2
+M2023_004,S2023,2023-03-10,M. Chinnaswamy Stadium,Bengaluru,T01,T05,T01,bat,T05,63,
+M2023_005,S2023,2023-03-13,M. Chinnaswamy Stadium,Bengaluru,T01,T06,T01,bat,T01,,9
+M2023_006,S2023,2023-03-16,M. Chinnaswamy Stadium,Bengaluru,T01,T07,T07,bat,T01,24,
+M2023_007,S2023,2023-03-19,M. Chinnaswamy Stadium,Bengaluru,T01,T08,T01,bat,T01,22,
+M2023_008,S2023,2023-03-22,Wankhede Stadium,Mumbai,T02,T03,T03,field,T02,,9
+M2023_009,S2023,2023-03-25,Wankhede Stadium,Mumbai,T02,T04,T02,field,T04,48,
+M2023_010,S2023,2023-03-01,Wankhede Stadium,Mumbai,T02,T05,T05,field,T05,10,
+M2023_011,S2023,04/03/2023,Wankhede Stadium,Mumbai,T02,T06,T02,field,T06,14,
+M2023_012,S2023,2023-03-07,Wankhede Stadium,Mumbai,T02,T07,T02,field,T07,47,
+M2023_013,S2023,2023-03-10,Wankhede Stadium,Mumbai,T02,T08,T08,bat,T08,24,
+M2023_014,S2023,2023-03-13,MA Chidambaram Stadium,Chennai,T03,T04,T03,bat,T04,47,
+M2023_015,S2023,2023-04-16,MA Chidambaram Stadium,Chennai,T03,T05,T05,field,T03,,3
+M2023_016,S2023,2023-04-19,MA Chidambaram Stadium,Chennai,T03,T06,T06,bat,T06,,4
+M2023_017,S2023,2023-04-22,MA Chidambaram Stadium,Chennai,T03,T07,T03,field,T03,54,
+M2023_018,S2023,2023-04-25,MA Chidambaram Stadium,Chennai,T03,T08,T03,field,T08,50,
+M2023_019,S2023,2023-04-01,Eden Gardens,Kolkata,T04,T05,T05,field,T05,,2
+M2023_020,S2023,04-Apr-2023,Eden Gardens,Kolkata,T04,T06,T04,field,T06,24,
+M2023_021,S2023,2023-04-07,Eden Gardens,Kolkata,T04,T07,T07,bat,T04,45,
+M2023_022,S2023,2023-04-10,Eden Gardens,Kolkata,T04,T08,T08,field,T04,13,
+M2023_023,S2023,2023-04-13,Sawai Mansingh Stadium,Jaipur,T05,T06,T05,field,T05,,3
+M2023_024,S2023,2023-04-16,Sawai Mansingh Stadium,Jaipur,T05,T07,T07,bat,T05,,8
+M2023_025,S2023,2023-04-19,Sawai Mansingh Stadium,Jaipur,T05,T08,T05,bat,T05,,4
+M2023_026,S2023,2023-04-22,Rajiv Gandhi Intl Stadium,Hyderabad,T06,T07,T07,bat,T06,27,
+M2023_027,S2023,2023-04-25,Rajiv Gandhi Intl Stadium,Hyderabad,T06,T08,T08,bat,T08,,7
+M2023_028,S2023,2023-05-01,Narendra Modi Stadium,Ahmedabad,T07,T08,T08,bat,T07,,9
+M2023_029,S2023,04/05/2023,Wankhede Stadium,Mumbai,T02,T01,T01,field,T01,,7
+M2023_030,S2023,2023-05-07,MA Chidambaram Stadium,Chennai,T03,T01,T01,field,T03,4,
+M2023_031,S2023,2023-05-10,Eden Gardens,Kolkata,T04,T01,T01,field,T01,36,
+M2023_032,S2023,2023-05-13,Sawai Mansingh Stadium,Jaipur,T05,T01,T05,field,T01,,7
+M2023_033,S2023,2023-05-16,Rajiv Gandhi Intl Stadium,Hyderabad,T06,T01,T06,field,T01,,6
+M2023_034,S2023,2023-05-19,Narendra Modi Stadium,Ahmedabad,T07,T01,T07,field,T07,,8
+M2023_035,S2023,2023-05-22,Arun Jaitley Stadium,Delhi,T08,T01,T08,field,T08,,6
+M2023_036,S2023,2023-05-25,MA Chidambaram Stadium,Chennai,T03,T02,T02,bat,T03,22,
+M2023_037,S2023,2023-05-01,Eden Gardens,Kolkata,T04,T02,T04,field,T02,65,
+M2023_038,S2023,04-May-2023,Sawai Mansingh Stadium,Jaipur,T05,T02,T02,field,T05,32,
+M2023_039,S2023,2023-05-07,Rajiv Gandhi Intl Stadium,Hyderabad,T06,T02,T02,bat,T06,,5
+M2023_040,S2023,2023-05-10,Narendra Modi Stadium,Ahmedabad,T07,T02,T07,field,T07,,7
+M2024_001,S2024,2024-03-01,M. Chinnaswamy Stadium,Bengaluru,T01,T02,T02,bat,T01,,7
+M2024_002,S2024,2024-03-04,M. Chinnaswamy Stadium,Bengaluru,T01,T03,T01,field,T01,44,
+M2024_003,S2024,2024-03-07,M. Chinnaswamy Stadium,Bengaluru,T01,T04,T01,field,T01,,6
+M2024_004,S2024,2024-03-10,M. Chinnaswamy Stadium,Bengaluru,T01,T05,T05,field,T05,13,
+M2024_005,S2024,2024-03-13,M. Chinnaswamy Stadium,Bengaluru,T01,T06,T06,field,T01,31,
+M2024_006,S2024,2024-03-16,M. Chinnaswamy Stadium,Bengaluru,T01,T07,T01,bat,T07,,2
+M2024_007,S2024,19/03/2024,M. Chinnaswamy Stadium,Bengaluru,T01,T08,T08,field,T01,13,
+M2024_008,S2024,2024-03-22,Wankhede Stadium,Mumbai,T02,T03,T03,bat,T02,,8
+M2024_009,S2024,2024-03-25,Wankhede Stadium,Mumbai,T02,T04,T02,bat,T02,26,
+M2024_010,S2024,2024-03-01,Wankhede Stadium,Mumbai,T02,T05,T02,bat,T05,27,
+M2024_011,S2024,2024-03-04,Wankhede Stadium,Mumbai,T02,T06,T06,bat,T06,40,
+M2024_012,S2024,2024-03-07,Wankhede Stadium,Mumbai,T02,T07,T07,bat,T07,6,
+M2024_013,S2024,2024-03-10,Wankhede Stadium,Mumbai,T02,T08,T02,field,T02,53,
+M2024_014,S2024,2024-03-13,MA Chidambaram Stadium,Chennai,T03,T04,T03,bat,T04,,3
+M2024_015,S2024,2024-04-16,MA Chidambaram Stadium,Chennai,T03,T05,T03,field,T03,,9
+M2024_016,S2024,19-Apr-2024,MA Chidambaram Stadium,Chennai,T03,T06,T03,bat,T06,39,
+M2024_017,S2024,2024-04-22,MA Chidambaram Stadium,Chennai,T03,T07,T03,bat,T07,,9
+M2024_018,S2024,2024-04-25,MA Chidambaram Stadium,Chennai,T03,T08,T03,field,T08,53,
+M2024_019,S2024,2024-04-01,Eden Gardens,Kolkata,T04,T05,T04,field,T05,35,
+M2024_020,S2024,2024-04-04,Eden Gardens,Kolkata,T04,T06,T04,bat,T04,13,
+M2024_021,S2024,2024-04-07,Eden Gardens,Kolkata,T04,T07,T04,bat,T04,,5
+M2024_022,S2024,2024-04-10,Eden Gardens,Kolkata,T04,T08,T08,bat,T08,,9
+M2024_023,S2024,2024-04-13,Sawai Mansingh Stadium,Jaipur,T05,T06,T06,bat,T05,10,
+M2024_024,S2024,2024-04-16,Sawai Mansingh Stadium,Jaipur,T05,T07,T07,bat,T05,,4
+M2024_025,S2024,19/04/2024,Sawai Mansingh Stadium,Jaipur,T05,T08,T08,field,T08,52,
+M2024_026,S2024,2024-04-22,Rajiv Gandhi Intl Stadium,Hyderabad,T06,T07,T06,field,T06,24,
+M2024_027,S2024,2024-04-25,Rajiv Gandhi Intl Stadium,Hyderabad,T06,T08,T08,field,T06,,5
+M2024_028,S2024,2024-05-01,Narendra Modi Stadium,Ahmedabad,T07,T08,T08,field,T08,,5
+M2024_029,S2024,2024-05-04,Wankhede Stadium,Mumbai,T02,T01,T01,bat,T02,57,
+M2024_030,S2024,2024-05-07,MA Chidambaram Stadium,Chennai,T03,T01,T03,field,T03,52,
+M2024_031,S2024,2024-05-10,Eden Gardens,Kolkata,T04,T01,T04,bat,T01,31,
+M2024_032,S2024,2024-05-13,Sawai Mansingh Stadium,Jaipur,T05,T01,T01,bat,T05,47,
+M2024_033,S2024,2024-05-16,Rajiv Gandhi Intl Stadium,Hyderabad,T06,T01,T01,field,T06,,2
+M2024_034,S2024,19-May-2024,Narendra Modi Stadium,Ahmedabad,T07,T01,T01,bat,T07,54,
+M2024_035,S2024,2024-05-22,Arun Jaitley Stadium,Delhi,T08,T01,T01,field,T01,23,
+M2024_036,S2024,2024-05-25,MA Chidambaram Stadium,Chennai,T03,T02,T03,bat,T03,,7
+M2024_037,S2024,2024-05-01,Eden Gardens,Kolkata,T04,T02,T04,field,T04,,9
+M2024_038,S2024,2024-05-04,Sawai Mansingh Stadium,Jaipur,T05,T02,T02,field,T05,35,
+M2024_039,S2024,2024-05-07,Rajiv Gandhi Intl Stadium,Hyderabad,T06,T02,T02,field,T02,43,
+M2024_040,S2024,2024-05-10,Narendra Modi Stadium,Ahmedabad,T07,T02,T07,field,T07,29,
