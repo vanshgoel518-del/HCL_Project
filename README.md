@@ -1,6 +1,7 @@
 # Project #21: IPL / Cricket Player Performance Dashboard
 
 **Domain:** Sports and Entertainment  
+**GitHub Repository:** https://github.com/vanshgoel518-del/HCL_Project  
 **Tech Stack:** Python (`pandas`, `matplotlib`, `streamlit`), SQLite & Oracle SQL (Star Schema DDL, Window Functions, Views), Excel Power Query, Power BI Desktop
 
 ---
